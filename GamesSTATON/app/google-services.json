@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "822329152962",
+    "firebase_url": "https://gamesstation-f4c71-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "gamesstation-f4c71",
+    "storage_bucket": "gamesstation-f4c71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822329152962:android:31bf532e131e516240325b",
+        "android_client_info": {
+          "package_name": "com.example.gamesstaton"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVRA2_vyFz8GrwTjTSm7PPwUNrpgdU0DQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822329152962:android:32442470400491d640325b",
+        "android_client_info": {
+          "package_name": "com.example.tests"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVRA2_vyFz8GrwTjTSm7PPwUNrpgdU0DQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

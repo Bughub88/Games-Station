@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Games Station</string>
+    <string name="ba_la">Başla</string>
+    <string name="games_station">GamesSTATION</string>
+    <string name="todo">TODO</string>
+    <string name="todos">TODO</string>
+    <string name="todoss">TODO</string>
+    <string name="yaz_tura">Yazı Tura</string>
+    <string name="sim_ehir">İsim Şehir</string>
+    <string name="ta_ka_t_makas">Taş Kağıt Makas</string>
+    <string name="sehir">İsim-Şehir</string>
+    <string name="taskamak">Taş Kağıt Makas</string>
+    <string name="yazitura">Bize mesaj gönder</string>
+    <string name="merhaba">merhaba</string>
+    <string name="firlat">FIRLAT</string>
+    <string name="aaa">TODO</string>
+    <string name="bbbb">TODO</string>
+    <string name="xox">XOX</string>
+    <string name="aaababa">TODO</string>
+    <string name="title_activity_xx">XX</string>
+    <string name="enter_your_message">Mesaj yazınız...</string>
+    <string name="send_message">Gönder</string>
+    <string name="anasayfa">Anasayfa</string>
+    <string name="mesaj">mesaj</string>
+
+</resources>
+

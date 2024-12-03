@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyan"
+    tools:context=".Oyunpanel">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="295dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/todos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/c"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/Eşleştirme"
+        android:layout_width="173dp"
+        android:layout_height="48dp"
+        android:text="Eşleştirme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="38dp"
+        android:contentDescription="@string/todoss"
+        app:layout_constraintBottom_toBottomOf="@+id/taskamak"
+        app:layout_constraintEnd_toStartOf="@+id/sos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/yazitura"
+        app:srcCompat="@drawable/d"
+        tools:ignore="VisualLintBounds" />
+
+    <Button
+        android:id="@+id/yazitura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:text="@string/yazitura"
+        app:layout_constraintStart_toStartOf="@+id/Eşleştirme"
+        app:layout_constraintTop_toBottomOf="@+id/Eşleştirme"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/taskamak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/taskamak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="26dp"
+        android:contentDescription="@string/aaababa"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/f" />
+
+    <Button
+        android:id="@+id/sos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:text="@string/xox"
+        app:layout_constraintBaseline_toBaselineOf="@+id/taskamak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
